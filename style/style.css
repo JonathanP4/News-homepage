@@ -25,7 +25,7 @@
 }
 
 body {
-  padding: 6rem;
+  padding: 4rem;
 }
 
 img {
@@ -49,7 +49,7 @@ i.bi-list {
 #side-content a:hover,
 #nav-links a:hover {
   color: var(--orange);
-  transition: 300ms;
+  transition: 200ms;
 }
 
 input,
@@ -146,7 +146,7 @@ button {
   flex-basis: 47%;
 }
 
-#main-image-text-info button {
+#main-image-text-info #button {
   background-color: var(--soft-red);
   color: var(--Off-white);
   border: none;
@@ -158,7 +158,7 @@ button {
   margin-top: 2rem;
 }
 
-#main-image-text-info button:hover {
+#main-image-text-info #button:hover {
   color: var(--Off-white);
   background-color: var(--Very-dark-blue);
   transition: 300ms;
@@ -175,7 +175,11 @@ button {
   margin-bottom: 2rem;
 }
 
-#side-content h3,
+#side-content h2 {
+  font-size: 1.25em;
+}
+
+#side-content h2,
 a {
   color: var(--Off-white);
   margin: 1rem 0;
@@ -216,9 +220,12 @@ p#last {
 .bottom-items-text h1 {
   color: var(--Grayish-blue);
   margin-bottom: .6rem;
+  font-size: 1.50em;
+
 }
 
-.bottom-items-text h3 {
+.bottom-items-text h2 {
+  font-size: 1.17em;
   font-weight: 900;
   margin-bottom: .6rem;
 }
