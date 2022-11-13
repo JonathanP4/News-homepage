@@ -25,7 +25,7 @@
 }
 
 body {
-  padding: 4rem;
+  padding: 6rem;
 }
 
 img {
@@ -144,6 +144,12 @@ button {
   display: flex;
   flex-direction: column;
   flex-basis: 47%;
+}
+
+#main-image-text-info p {
+  color: var(--Dark-grayish-blue);
+  line-height: 1.5em;
+  font-size: .98em;
 }
 
 #main-image-text-info #button {
